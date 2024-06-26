@@ -1,16 +1,17 @@
 body {
   border-left-width: 1px;
-    border-right-width: 1px;
+  border-right-width: 1px;
 }
 
 h1 {
   font-size: 30px;
-   display: flex;
-     justify-content: center;
-     color: aliceblue;
-       background-color: hwb(0 0% 100%);
-         padding-top: 30px;
-           padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  background-color: hwb(0 0% 100%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
 }
 
 .espacio {
@@ -19,9 +20,9 @@ h1 {
 
 .img {
   display: flex;
-    justify-content: center;
-      border-top: 1px solid #000;
-        border-bottom: 1px solid #000;
+  justify-content: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .info {
@@ -30,13 +31,13 @@ h1 {
 
 h3 {
   font-weight: bold;
-   font-size: 20px;
+  font-size: 20px;
 }
 
 nav {
   font-family: sans-serif;
   font-size: 10px;
-   background-color: hsl(16, 95%, 60%);
-     padding-top: 5px;
-       padding-bottom: 5px;
+  background-color: hsl(16, 95%, 60%);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
