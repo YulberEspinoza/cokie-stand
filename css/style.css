@@ -14,30 +14,34 @@ h1 {
   font-weight: bold;
 }
 
-.espacio {
-  margin-right: 50px;
+nav {
+  font-size: 10px;
+  background-color: hsl(16, 95%, 60%);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.img {
+nav > ul {
+  font-size: 13px;
+  display: flex;
+  justify-content: baseline;
+}
+
+.espacio {
+  margin-right: 40px;
+}
+
+.imagen {
   display: flex;
   justify-content: center;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
 
-.info {
-  margin: 10px;
-}
-
-h3 {
+section > h2 {
   font-weight: bold;
-  font-size: 20px;
 }
 
-nav {
-  font-family: sans-serif;
-  font-size: 10px;
-  background-color: hsl(16, 95%, 60%);
-  padding-top: 5px;
-  padding-bottom: 5px;
+.location {
+  margin: 15px;
 }
