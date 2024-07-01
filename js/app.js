@@ -42,7 +42,6 @@ Location.prototype.render = function () {
 
   for (let k = 0; k < hours.length; k++) {
     const hoursTd = document.createElement("td");
-    hoursTd.textContent = "";
     storeTr.appendChild(hoursTd);
   }
 
